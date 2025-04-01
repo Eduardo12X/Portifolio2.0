@@ -1,0 +1,76 @@
+/** RGB (Red, Green and Blue) 
+Representado por códigos hexadecimais, onde cada código hexadecimal tem 16 valores diferentes:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9 -> a, b, c, d, e, f
+Cada cor possui 2 códigos hexadecimais, então são 6 códigos hexadecimais que uma cor RGB tem **/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.krona-one-regular {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+body {
+    background-color: black;
+    color: #f6f6f6;
+    margin: 20px 10px 40px 50px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+}
+#conteudo_principal {
+    width: 650px;
+    margin: 35px 50px 0px auto;
+}
+#link_insta {
+    background-color: #22d4fd;
+    border-radius: 5px;
+    margin: 0px 3px 0px 0px;
+    padding: 16px 32px;
+    display: inline-block;
+}
+#link_github {
+    background-color: #22d4fd;
+    border-radius: 5px;
+    margin: 5px 3px 5px 5px;
+    padding: 16px 42px;
+    display: inline-block;
+}
+h1 {
+    padding-left: 5px;
+    height: 75px;
+    font-family: "Krona One", sans-serif;
+    font-size: 39px;
+    display: inline-block;
+}
+#h1_destaque {
+    color: #22d4fd;
+    /** border: 1px solid #22d4fd; **/
+    padding: 4px 6px 4px 6px;
+    margin: 5px 0px 0px 5px;
+}
+p {
+    padding: 5px 5px 25px 5px;
+    font-size: 20px;
+}
+p.parag_especial {
+    padding: 50px 5px 0px 5px;
+}
+strong {
+    color: #22d4fd;
+    padding: 0px 5px 0px 5px;
+}
+img {
+    padding: 35px;
+    margin: auto;
+    /** margin-left: 1000px; **/
+}
+footer {
+    padding-top: 25px;
+    text-align: center;
+}
